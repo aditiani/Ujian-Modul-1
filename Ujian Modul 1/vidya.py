@@ -62,7 +62,7 @@ allnum = odd + even
 print(type(allnum))
 print(allnum)
 
-print('odd numbers ascending: ', allnum.choice(odd), '(Odds number in the index 0,1, and 2)') 
+print('odd numbers ascending: ', allnum[odd], '(Odds number in the index 0,1, and 2)') 
 print('even numbers ascending: ', allnum[even], '(Even number in the index 3,4, and 5)')
 
 #soal #no #4
